@@ -338,7 +338,7 @@ That's it! Go ahead and launch your app in the simulator, and you should be able
 
 This is a super simple app, but this foundation can be easily extended to load JSON data from the web, via drag and drop on iPad, etc.
 
-If you're interested, the full project code for this tutorial can be dowloaded here:
+If you're interested, the full project code for this tutorial can be dowloaded [here](https://github.com/andrewwilliams/GaiaHowTo)
 
 ## Wrap Up and Further Reading 
 
