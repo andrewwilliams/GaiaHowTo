@@ -22,10 +22,7 @@ In this layout system, you start with the smallest objects - Items - and work yo
 
 The four objects that you’ll be creating are:
 
-Item
-Group
-Section
-Layout
+Item, Group, Section, Layout
 
 You can see the relationship between them in this slide from WWDC:
 
