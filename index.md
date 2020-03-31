@@ -12,7 +12,7 @@ To get started, open Xcode and create a new project. Give it whichever name you�
 
 ![](Images/1.png)
 
-## Collection view - add compositional layout code.
+## Collection view - add compositional layout code
 
 The first piece of our trifecta is Compositional layouts.
 
@@ -41,7 +41,7 @@ To start, add the property below to the top of your newly created ViewController
 var collectionView: UICollectionView! = nil
 ```
 
-### Setup create layout method:
+### Setup create layout method
 
 Next, we're going to setup our createLayout method. This method is responsible for describing our items, groups, and sections and returns a UICollectionViewCompositionalLayout object.
 
@@ -135,7 +135,7 @@ class DateCell: UICollectionViewCell {
 }
 ```
 
-## Collection view - add data source methods.
+## Collection view - add data source methods
 
 Now that we've told our collectionView how to layout cells, and our cells how and what they need to layout, we need to tell the collection view what data to display. To do that, let's set up our collection view data source.
 
@@ -201,7 +201,7 @@ Passed into this trailing closure are 3 objects, the collectionView that is disp
 
 From there, we can setup our cell and modify it's properties just as we would in a traditional cellForRowAtIndexPath method.
 
-## Core data - add model info (name, date)
+## Core data - add model info
 At this point, Xcode is complaining because we’re referencing something called a fetchedResultsController, but we haven’t set one up yet. Let’s fix that.
 
 First, let’s go into our Core Data model - by default it’s below your Info.plist and is given the same name as your project - and create a new Entity called DateItem. We’ll add a single property to this entity called date_created, and make it of type Date.
@@ -210,7 +210,7 @@ First, let’s go into our Core Data model - by default it’s below your Info.p
 
 
 
-## Core data - setup NSFetchedResultsController.
+## Core data - setup NSFetchedResultsController
 With our Entity and Attribute setup, we can create our NSFetchedResultsController - which is essentially a live search of your Core Data model. 
 
 Any time an object in your model which matches your search is updated, added, or deleted, the NSFetchedResultsController notifies its delegate methods. In the past this came in the form of several methods that took a lot of boiler plate code to correctly wire up to your collection view.
