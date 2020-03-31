@@ -340,7 +340,7 @@ This is a super simple app, but this foundation can be easily extended to load J
 
 If you're interested, the full project code for this tutorial can be dowloaded [here](https://github.com/andrewwilliams/GaiaHowTo)
 
-## Wrap Up and Further Reading 
+## Further Reading 
 
 [Advances in UI Data Sources - WWDC 2019 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2019/220/)
 [Advances in Collection View Layout - WWDC 2019 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2019/215/)
